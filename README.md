@@ -29,10 +29,10 @@ The example data file **data.csv** was chosen to show that the method can uncove
 
 Run the following code from within R.
 
-`
-source('bgkreg.R')
-D = read.csv('data.csv', header=T)
-x = D$x
-y = D$trig
-kernelR(x,y, 'example.pdf', 'x','Gaus(10*sin(x), 4)')
-`
+```
+    source('bgkreg.R')
+    D = read.csv('data.csv', header=T)
+    x = D$x
+    y = D$trig
+    kernelR(x,y, 'example.pdf', 'x','Gaus(10*sin(x), 4)')
+```
