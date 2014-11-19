@@ -9,3 +9,6 @@
 
 # Ingore pdf's
 *.pdf
+
+# Ignore .Rapp
+*.Rapp*
